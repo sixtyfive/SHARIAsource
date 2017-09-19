@@ -7,7 +7,7 @@ $document.on('turbolinks:load', function() {
 
   tinymce.init({
     selector: 'textarea.wysiwyg',
-    toolbar: 'formatselect styleselect | bold italic underline strikethrough superscript | bullist numlist blockquote | link unlink | image media table | undo redo | ltr rtl',
+    toolbar: 'formatselect styleselect | bold italic underline strikethrough superscript | alignleft aligncenter alignright alignjustify | bullist numlist blockquote | link unlink | image media table | undo redo | ltr rtl',
     plugins: 'link image table paste directionality media autosave',
     browser_spellcheck: true,
     style_formats: [{
